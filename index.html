@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdul Moiz - Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 10 px 10 px 10 px 100 px;
+        background-color: #1e1e1e; /* Dark background */
+        color: #fff; /* White text color */
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(#95f9c3, #0b3866); /* Gradient background */
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    }
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+    .profile img {
+        border-radius: 50%;
+        border: 3px solid black; /* White border */
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+        transition: transform 0.3s ease;
+    }
+    .profile img:hover {
+        transform: rotate(360deg); /* Rotate on hover */
+    }
+    .profile h1 {
+        margin: 0;
+        font-size: 24px;
+        color: black; /* White color */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+    }
+    .bio {
+        margin-top: 20px;
+        padding: 20px;
+        border-left: 3px solid #95f9c3; /* Green border */
+        background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    }
+    .container {
+        padding: 20px;
+    }
+    .contact-icons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contact-icons a {
+        color: black; /* White color */
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 15px;
+        transition: color 0.3s ease;
+    }
+    .contact-icons a:hover {
+        color:  #0b3866; /* Green on hover */
+    }
+    .education {
+        margin-bottom: 40px;
+    }
+    .education h2 {
+        color: #95f9c3; /* Purple color */
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 70%;
+    }
+    th {
+        border: 1px solid #95f9c3; /* White border */
+        padding: 15px;
+        text-align: left;
+        color: #45caff;/* Yellow color */
+        font-size: 18px;
+    }
+
+     td {
+        border: 1px solid #95f9c3; /* White border */
+        padding: 15px;
+        text-align: left;
+        color: white; /* Yellow color */
+        font-size: 18px;
+    }
+    th {
+        background-color: rgba(255, 255, 255, 0.1); /* Transparent background for headers */
+    }
+    .skills {
+        margin-bottom: 40px;
+    }
+    .skills h2 {
+        color: #95f9c3 ; /* Red color */
+        font-size: 24px;
+        margin-bottom: 20px;
+      
+    }
+    .skills ul {
+        list-style-type: disc; /* Use bullets */
+    /*     padding-left: 20px; Add some padding */
+    }
+    .skills li {
+        margin-bottom: 10px;
+        margin-left:  32 px;
+        font-size: 18px;
+    }
+    .experience {
+        margin-bottom: 40px;
+    }
+    .experience h2 {
+        color: #95f9c3; /* Blue color */
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+ .pro {
+         color: #95f9c3 ; /* Red color */
+        font-size: 24 px;
+        margin-bottom: 20px;
+        padding-left: 20px; 
+    }
+    .experience h3 {
+        color: #ff1b6b; /* Yellow color */
+        font-size: 20px;
+        margin-bottom: 10px;
+        list-style-type: disc; /* Use bullets */
+        padding-left: 20px; /* Add some padding */
+    }
+    .experience p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding-left: 25px;
+    }
+    .project-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+.project-card {
+    width: 48%;
+    background: linear-gradient(#95f9c3, #0b3866);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding: 10px 100px 20px 10px;
+    margin-bottom: 20px;
+}
+    .project-card h3 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #fff; /* White color */
+         margin-bottom: 10px;
+   font-family: 'Roboto', sans-serif; /* Specify Roboto font family */
+    font-weight: bold;
+ text-align: center;
+    }
+    .project-card p {
+        font-size: 18px;
+        color: black; /* White color */
+ text-align: center;
+ font-family: 'times new roman;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="profile">
+        <img src="your_photo.jfif" alt="Abdul Moiz">
+        <h1>Abdul Moiz 🦅 </h1>
+    </div>
+    <div class="contact-icons">
+        <a href="mailto:moiz20920@gmail.com"><i class="far fa-envelope"></i></a>
+        <a href="https://github.com/abdulmoiz248" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abdul-moiz-170222246/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/_abdul__moiz_/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="bio">
+        <p>Passionate about competitive programming | Enthusiastic problem solver with a dedication to honing programming skills.</p>
+    </div>
+    <div class="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Institute</th>
+                <th>Passing Year</th>
+                <th>Total Marks</th>
+            </tr>
+            <tr>
+                <td><a href="https://lahore.comsats.edu.pk/" target="_blank">COMSATS</a></td>
+                <td>2026</td>
+                <td>3.53 GPA</td>
+            </tr>
+            <tr>
+                <td><a href="https://pgc.edu/campus/lahore-campus-8/" target="_blank">PGC</a></td>
+                <td>2022</td>
+                <td>928 / 1100</td>
+            </tr>
+<tr>
+                <td><a href="https://www.dpslahore.edu.pk/" target="_blank">DPS</a></td>
+                <td>2020</td>
+                <td>1015 / 1100</td>
+            </tr>
+        </table>
+    </div>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>       
+            <li>Java</li>
+            <li>Video Editing</li>
+            <li>C++</li>
+        </ul>
+    </div>
+    <div class="experience">
+        <h2>Past Experience</h2>
+        <h3>• IT Team Member at IEEE RAS</h3>
+        <p>As an IT team member at IEEE RAS, I adeptly managed the society's information technology infrastructure, ensuring seamless operation of hardware, software and learned many new things.</p>
+    </div>
+</div>
+
+ <div class="pro">
+        <h2>Projects</h2>
+    </div>
+    
+    <div class="project-cards">
+        <div class="project-card">
+            <h3><a href="https://github.com/abdulmoiz248/Twitter-clone" target="_blank">Twitter Clone</a></h3>
+            <p>The Twitter-Clone project is a demonstration of Data Structures and Algorithms (DSA) skills, showcasing the implementation of various data structures in a simplified social media context. In this project, user IDs are created and managed using a linked list, tweets are displayed using a queue, and stacks are employed for handling notifications. Additionally, file handling is utilized for efficient data storage and retrieval.</p>
+        </div>
+        <div class="project-card">
+            <h3><a href="https://github.com/abdulmoiz248/FOOBER" target="_blank">FOOBER</a></h3>
+            <p>Welcome to FOOBER, a revolutionary startup concept that redefines the dining experience by seamlessly integrating food selection, ordering, and transportation. FOOBER provides a unique and convenient solution for food enthusiasts who want to enjoy their favorite meals without the hassle of driving or waiting in queues. With FOOBER, you have the freedom to choose your food, place an order, and have a dedicated rider pick you up, transporting you directly to the restaurant where your delicious meal awaits.</p>
+        </div>
+        <div class="project-card">
+            <h3><a href="https://github.com/abdulmoiz248/Sudoku" target="_blank">Sudoku</a></h3>
+            <p>The Sudoku Solver program is a graphical user interface (GUI) application developed in JavaFX. This project demonstrates proficiency in GUI development, providing users with an interactive Sudoku-solving experience.
+
+</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
